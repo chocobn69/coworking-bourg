@@ -13,13 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Coworking Bourg en Bresse - Cowork'Ain
+title: Coworking Bourg en Bresse
 email: admin@coworking-bourg.fr
 description: >- # this means to ignore newlines until "baseurl:"
-  Coworking Bourg en Bresse situé en plein centre ville de Bourg.
+  Coworking Bourg en Bresse (Cowork'Ain) situé en plein centre ville de Bourg.
   Venez visiter les nouveaux locaux situés rue général Logerot.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.coworking-bourg.fr" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.coworking-bourg.fr" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: coworking-bourg
 github_username:  chocobn69
 
