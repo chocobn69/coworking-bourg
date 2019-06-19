@@ -22,10 +22,12 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.coworking-bourg.fr" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: coworking-bourg
 github_username:  chocobn69
+languages: ["fr"]
+lang: fr
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-slate
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
   - jekyll-feed
