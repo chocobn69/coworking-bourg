@@ -26,8 +26,8 @@ Plusieurs formules existent:
 - Location bureau partagé : 150€ / mois
 - Openspace : 85€ / mois
 - A la carte :
-    - 1j : 10€
-    - demin journée : 5€
+    - un jour : 10€
+    - demi journée : 5€
 
 [Les tarifs en détail](/tarifs.html)
 
