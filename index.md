@@ -1,4 +1,5 @@
 ---
+
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
@@ -14,7 +15,7 @@ Ouverture du premier espace de coworking de l'Ain à Bourg en Bresse au centre v
 
 130m² pour les auto-entrepreneurs, freelances, télétravailleurs, indépendants, petites structures..
 
-Internet Haut Débit, Cuisine, salle de repos, salles de réunions, salles de réunion, espace partagés..
+Internet Haut Débit, Cuisine, salle de repos, salles de réunion, espace partagés..
 
 Info ? Rejoignez-nous !
 
@@ -40,7 +41,7 @@ Plusieurs formules existent:
 
 ## Contact
 
-- Email : [Coworkain QG](qg.coworkain@gmail.com)
+- Email : [Coworkain QG](mailto:qg.coworkain@gmail.com)
 - Téléphone : 06 10 30 80 68
 - Réservation en ligne : [Neo nomade](https://www.neo-nomade.com/espace/2375/coworking-bourg-en-bresse-coworkain)
 - [Facebook](https://fr-fr.facebook.com/leqgcoworking/)
