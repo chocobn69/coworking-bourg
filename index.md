@@ -42,7 +42,7 @@ Plusieurs formules existent:
 ## Contact
 
 - Email : [Coworkain QG](mailto:qg.coworkain@gmail.com)
-- Téléphone : 06 10 30 80 68
+- Téléphone : 09 72 91 17 65 (06 10 30 80 68 si pas de réponse)
 - Réservation en ligne : [Neo nomade](https://www.neo-nomade.com/espace/2375/coworking-bourg-en-bresse-coworkain)
 - [Facebook](https://fr-fr.facebook.com/leqgcoworking/)
 
