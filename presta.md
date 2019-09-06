@@ -10,6 +10,7 @@ title: Cowork Ain - Prestations
 [Retour](/)
 
 # Prestation de l'espace de Coworking dans l'Ain
-- INTERNET fibre (filaire + wifi_)
+- Internet fibre (filaire et wifi)
 - Café
-- ...
+- Imprimante
+- Accès mobilité réduite

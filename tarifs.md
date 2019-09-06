@@ -16,4 +16,4 @@ Plusieurs formules existent:
 - Openspace : 85€ / mois
 - A la carte :
     - 1j : 10€
-    - demin journée : 5€
+    - demi journée : 5€
