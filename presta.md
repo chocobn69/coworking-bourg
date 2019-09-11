@@ -14,3 +14,4 @@ title: Cowork Ain - Prestations
 - Café
 - Imprimante
 - Accès mobilité réduite
+- Prêt de vidéo projecteur sur demande

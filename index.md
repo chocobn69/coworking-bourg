@@ -15,7 +15,7 @@ Ouverture du premier espace de coworking de l'Ain à Bourg en Bresse au centre v
 
 130m² pour les auto-entrepreneurs, freelances, télétravailleurs, indépendants, petites structures..
 
-Internet Haut Débit, Cuisine, salle de repos, salles de réunion, espace partagés..
+Internet Haut Débit, Cuisine, salle de repos, salles de réunion, espace partagés, prêt de vidéo projecteur sur demande ...
 
 Info ? Rejoignez-nous !
 
@@ -26,18 +26,12 @@ Plusieurs formules existent:
 - Location bureau : 300€ / mois
 - Location bureau partagé : 150€ / mois
 - Openspace : 85€ / mois
+- Salle de réunion jusqu'à 6 personnes : 10€ / heure ou 65€ / jour
 - A la carte :
     - un jour : 10€
     - demi journée : 5€
 
 [Les tarifs en détail](/tarifs.html)
-
-## Horaires
-
-### A quelle heure venir ?
-
-- Lun Mar Mer Jeu Ven : 8h - 19h
-- Sam Dim Fermé : Fermé
 
 ## Contact
 
@@ -47,6 +41,7 @@ Plusieurs formules existent:
 - [Facebook](https://fr-fr.facebook.com/leqgcoworking/)
 
 ## Accés
+
 Nos bureaux se trouvent en plein centre de Bourg en Bresse, a deux pas de la gare et du centre ville.
 
 Notre adresse exacte:

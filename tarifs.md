@@ -14,6 +14,7 @@ Plusieurs formules existent:
 - Location bureau : 300€ / mois
 - Location bureau partagé : 150€ / mois
 - Openspace : 85€ / mois
+- Salle de réunion jusqu'à 6 personnes : 10€ / heure ou 65€ / jour
 - A la carte :
     - 1j : 10€
     - demi journée : 5€
