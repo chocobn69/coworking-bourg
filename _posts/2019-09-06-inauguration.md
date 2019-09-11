@@ -17,6 +17,6 @@ L’adresse :
  
 Nous pourrons alors échanger en toute convivialité autour d’un verre de l’amitié.
  
-Afin d’organiser au mieux l’évènement, nous vous remercions par avance de bien vouloir nous confirmer votre présence par mail à adresse mail de qui ? avant le 20/09.
+Afin d’organiser au mieux l’évènement, nous vous remercions par avance de bien vouloir nous confirmer votre présence par mail à <qg.coworkain@gmail.com> avant le 20/09.
  
 Au plaisir de vous retrouver prochainement.
