@@ -23,13 +23,15 @@ Info ? Rejoignez-nous !
 
 ## Tarifs
 Plusieurs formules existent:
-- Location bureau : 300€ HT / mois
-- Location bureau partagé : 150€ HT / mois
-- Openspace : 85€ HT / mois
-- Salle de réunion jusqu'à 6 personnes : 10€ HT / heure ou 65€ HT / jour
+- Location bureau : 360€ / mois
+- Location bureau partagé : 180€ / mois
+- Openspace : 102€ / mois
+- Salle de réunion jusqu'à 6 personnes : 12€ / heure ou 78€ / jour
 - A la carte :
-    - un jour : 10€ HT
-    - demi journée : 5€ HT
+    - 1j : 12€
+    - demi journée : 6€
+
+Les tarifs s'entendent avec TVA à 20% incluse.
 
 [Les tarifs en détail](/tarifs.html)
 
