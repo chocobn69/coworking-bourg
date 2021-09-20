@@ -26,7 +26,6 @@ Plusieurs formules existent:
 - Location bureau : 360€ / mois
 - Location bureau partagé : 180€ / mois
 - Openspace : 102€ / mois
-- Salle de réunion jusqu'à 6 personnes : 12€ / heure ou 78€ / jour
 - A la carte :
     - 1j : 12€
     - demi journée : 6€
@@ -39,7 +38,6 @@ Les tarifs s'entendent avec TVA à 20% incluse.
 
 - Email : [Coworkain QG](mailto:qg.coworkain@gmail.com)
 - Téléphone : 06 10 30 80 68
-- Réservation en ligne : [Neo nomade](https://www.neo-nomade.com/espace/2375/coworking-bourg-en-bresse-coworkain)
 - [Facebook](https://fr-fr.facebook.com/leqgcoworking/)
 
 ## Accés
