@@ -23,8 +23,8 @@ Info ? Rejoignez-nous !
 
 ## Tarifs
 Plusieurs formules existent:
-- Location bureau : 360€ / mois
-- Location bureau partagé : 180€ / mois
+- ~~Location bureau : 360€ / mois~~ Plus de place disponible
+- ~~Location bureau partagé : 180€ / mois~~ Plus de place disponible
 - Openspace : 102€ / mois
 - A la carte :
     - 1j : 12€
