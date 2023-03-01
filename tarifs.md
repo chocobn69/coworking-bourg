@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-description: Coworking Bourg en Bresse situé en plein centre ville de Bourg. 
+description: Coworking Bourg en Bresse situé en plein centre ville de Bourg.
 title: Cowork Ain - Tarifs
 ---
 
@@ -11,7 +11,7 @@ title: Cowork Ain - Tarifs
 
 # Les différents tarifs de l'espace de coworking
 Plusieurs formules existent:
-- ~~Location bureau : 360€ / mois~~ Plus de place disponible
+- Location bureau : 480€ / mois
 - ~~Location bureau partagé : 180€ / mois~~ Plus de place disponible
 - Openspace : 102€ / mois
 - A la carte :
