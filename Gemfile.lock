@@ -256,15 +256,15 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll (~> 3.8.5)
+  jekyll
   jekyll-avatar
-  jekyll-feed (~> 0.6)
+  jekyll-feed
   jekyll-include-cache
   jekyll-mentions
   jekyll-redirect-from
   jekyll-sitemap
   jemoji
-  minima (~> 2.0)
+  minima
   tzinfo-data
 
 BUNDLED WITH
