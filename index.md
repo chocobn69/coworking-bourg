@@ -23,8 +23,8 @@ Info ? Rejoignez-nous !
 
 ## Tarifs
 Plusieurs formules existent:
-- Location bureau : 480€ / mois
-- Openspace : 102€ / mois
+- Location bureau : 552€ / mois
+- Openspace : 117€ / mois
 - A la carte :
     - 1j : 12€
     - demi journée : 6€
