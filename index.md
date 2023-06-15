@@ -24,7 +24,6 @@ Info ? Rejoignez-nous !
 ## Tarifs
 Plusieurs formules existent:
 - Location bureau : 480€ / mois
-- ~~Location bureau partagé : 180€ / mois~~ Plus de place disponible
 - Openspace : 102€ / mois
 - A la carte :
     - 1j : 12€
@@ -38,7 +37,7 @@ Les tarifs s'entendent avec TVA à 20% incluse.
 
 - Email : [Coworkain QG](mailto:qg.coworkain@gmail.com)
 - Téléphone : 06 10 30 80 68
-- [Facebook](https://fr-fr.facebook.com/leqgcoworking/)
+- [Facebook](https://www.facebook.com/LeQGBourgenBresse/)
 
 ## Accés
 
