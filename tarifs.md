@@ -11,11 +11,13 @@ title: Cowork Ain - Tarifs
 
 # Les différents tarifs de l'espace de coworking
 Plusieurs formules existent:
-- Location bureau : 480€ / mois
-- ~~Location bureau partagé : 180€ / mois~~ Plus de place disponible
-- Openspace : 102€ / mois
+- Location bureau : 414€ / mois
+- Openspace : 117€ / mois
 - A la carte :
-    - 1j : 12€
-    - demi journée : 6€
+    - 1j : 14€
+    - demi journée : 7€
+- Salle de réunion :
+    - 1j : 84€
+    - demie journée : 42€
 
 Les tarifs s'entendent avec TVA à 20% incluse.
