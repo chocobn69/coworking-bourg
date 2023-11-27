@@ -26,11 +26,11 @@ Plusieurs formules existent:
 - Location bureau : 414€ / mois
 - Openspace : 117€ / mois
 - A la carte :
-    - 1j : 14€
+    - journée : 14€
     - demi journée : 7€
 - Salle de réunion :
-    - 1j : 84€
-    - demie journée : 42€
+    - journée : 84€
+    - demi journée : 42€
 
 Les tarifs s'entendent avec TVA à 20% incluse.
 
