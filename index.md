@@ -23,11 +23,11 @@ Info ? Rejoignez-nous !
 
 ## Tarifs
 Plusieurs formules existent:
-- Location bureau : 552€ / mois (été 2024)
-- Openspace : 117€ / mois
+- Location bureau : 552€ TTC / mois (été 2024)
+- Openspace : 117€ TTC / mois
 - A la carte :
-    - journée : 14€
-    - demi journée : 7€
+    - journée : 14€ TTC
+    - demi journée : 7€ TTC
 - ~~Salle de réunion :~~
     - ~~journée : 84€~~
     - ~~demi journée : 42€~~
