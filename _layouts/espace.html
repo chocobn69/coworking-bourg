@@ -33,9 +33,11 @@ layout: default
     </ul>
   </div>
   <div class="tarifs-liste">
-    {%- for nom in page.groupes_tarifs %}
-    {%- assign groupe = site.data.tarifs | where: "groupe", nom | first %}
+    {%- for id in page.groupes_tarifs %}
+    {%- assign groupe = site.data.tarifs | where: "id", id | first %}
+    {%- if groupe %}
     {% include groupe-tarif.html groupe=groupe %}
+    {%- endif %}
     {%- endfor %}
     <p class="doux">Tous les prix sont TTC. <a href="{{ '/#faq' | relative_url }}">Questions fréquentes</a></p>
   </div>

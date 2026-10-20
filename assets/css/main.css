@@ -666,8 +666,10 @@ address {
   display: none;
 }
 
+/* The second declaration gives the sign an empty alt text; older browsers keep the first */
 .faq summary::after {
   content: "+";
+  content: "+" / "";
   color: var(--brique);
   font-size: 28px;
   font-weight: 400;
@@ -676,6 +678,7 @@ address {
 
 .faq details[open] summary::after {
   content: "–";
+  content: "–" / "";
 }
 
 .faq details > p,
