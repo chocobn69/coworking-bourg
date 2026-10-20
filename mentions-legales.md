@@ -21,8 +21,8 @@ Contact&nbsp;: [{{ infos.mail }}](mailto:{{ infos.mail }}) · [{{ infos.telephon
 
 ## Hébergement
 
-GitHub Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis
-Tél.&nbsp;: +1 877 448 4820 ([https://pages.github.com](https://pages.github.com)).
+GitHub Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis.
+Tél.&nbsp;: +1&nbsp;877&nbsp;448&nbsp;4820 ([https://pages.github.com](https://pages.github.com)).
 
 ## Données personnelles et cookies
 
