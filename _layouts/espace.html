@@ -1,0 +1,57 @@
+---
+layout: default
+---
+{%- assign infos = site.data.infos -%}
+<section class="conteneur accroche">
+  <div class="accroche-texte">
+    <p class="surtitre">{{ page.surtitre }}</p>
+    <h1>{{ page.accroche }}</h1>
+    <p class="accroche-intro">{{ page.intro }}</p>
+    <div class="actions">
+      <a class="bouton bouton-grand" href="{{ infos.lien_visite }}">Réserver une visite</a>
+      <a class="lien-tel" href="tel:{{ infos.telephone_international }}">ou appelez le {{ infos.telephone }}</a>
+    </div>
+  </div>
+  <div class="accroche-photos">
+    {%- for photo in page.photos %}
+    <figure class="tirage {% cycle 'tirage-gauche', 'tirage-droite' %} accroche-photo-{{ forloop.index }}">
+      <img src="{{ photo.src | relative_url }}" alt="{{ photo.alt }}" width="500" height="{{ photo.hauteur }}">
+      <figcaption>{{ photo.legende }}</figcaption>
+    </figure>
+    {%- endfor %}
+  </div>
+</section>
+
+<section class="conteneur section tarifs">
+  <div class="tarifs-intro">
+    <h2 class="titre-section">En pratique</h2>
+    <ul class="liste-points">
+      {%- for point in page.points %}
+      <li>{{ point }}</li>
+      {%- endfor %}
+      <li>À {{ infos.gare_a_pied }} à pied de la gare</li>
+    </ul>
+  </div>
+  <div class="tarifs-liste">
+    {%- for nom in page.groupes_tarifs %}
+    {%- assign groupe = site.data.tarifs | where: "groupe", nom | first %}
+    {% include groupe-tarif.html groupe=groupe %}
+    {%- endfor %}
+    <p class="doux">Tous les prix sont TTC. <a href="{{ '/#faq' | relative_url }}">Questions fréquentes</a></p>
+  </div>
+</section>
+
+{%- assign espaces = site.pages | where: "layout", "espace" | sort: "ordre" %}
+<nav class="conteneur autres-espaces" aria-label="Les autres espaces">
+  <p class="surtitre">Voir aussi</p>
+  <ul>
+    {%- for espace in espaces %}
+    {%- unless espace.url == page.url %}
+    <li><a href="{{ espace.url | relative_url }}">{{ espace.surtitre }}</a></li>
+    {%- endunless %}
+    {%- endfor %}
+    <li><a href="{{ '/#tarifs' | relative_url }}">Tous les tarifs</a></li>
+  </ul>
+</nav>
+
+{% include acces.html %}
