@@ -1,0 +1,34 @@
+{%- assign infos = site.data.infos -%}
+{%- assign prix = "" | split: "" -%}
+{%- for groupe in site.data.tarifs -%}
+  {%- assign prix_groupe = groupe.lignes | map: "prix" -%}
+  {%- assign prix = prix | concat: prix_groupe -%}
+{%- endfor -%}
+{%- assign prix = prix | sort -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": {{ infos.nom | jsonify }},
+  "description": {{ site.description | jsonify }},
+  "url": {{ site.url | jsonify }},
+  "image": {{ "/assets/photo_openspace_1.jpg" | absolute_url | jsonify }},
+  "telephone": {{ infos.telephone_international | jsonify }},
+  "email": {{ infos.mail | jsonify }},
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": {{ infos.adresse.rue | jsonify }},
+    "postalCode": {{ infos.adresse.code_postal | jsonify }},
+    "addressLocality": {{ infos.adresse.ville | jsonify }},
+    "addressCountry": "FR"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": {{ infos.geo.latitude }},
+    "longitude": {{ infos.geo.longitude }}
+  },
+  "openingHours": {{ infos.horaires_schema | jsonify }},
+  "priceRange": "{{ prix.first }} € – {{ prix.last }} €",
+  "sameAs": [{{ infos.facebook | jsonify }}]
+}
+</script>
