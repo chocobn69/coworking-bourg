@@ -33,7 +33,6 @@ réserver une visite par mail ou téléphone. Zéro service tiers, maintenance m
 | Surface | 130 m² |
 | Temps à pied depuis la gare | 5 minutes |
 | Horaires | du lundi au vendredi, 8 h – 18 h |
-| Venir | à pied, en voiture, à vélo, en train |
 | Responsable de publication | Nicolas Baccelli |
 
 L'engagement minimum sur les formules au mois n'est pas connu : il n'est pas mentionné sur le site.
@@ -61,7 +60,7 @@ Fibre filaire et wifi, café, imprimante, cuisine, salle de repos, accès PMR. L
    et une phrase chacun.
 5. **Tarifs** — liste façon carte de café (libellé, pointillés, prix), mention TTC et services inclus.
 6. **Accès / contact** — bandeau sombre « Venez prendre un café avec nous. », adresse, « Du lundi au vendredi, 8 h – 18 h »,
-   « À 5 minutes à pied de la gare — à pied, en voiture, à vélo ou en train », lien
+   « À 5 minutes à pied de la gare. On vient aussi à vélo ou en voiture. », lien
    OpenStreetMap (pas d'iframe de carte : évite un bandeau cookies), boutons mail et téléphone.
 7. **Pied de page** — « Géré par Cowork'Ain, association loi 1901. », Facebook, mentions légales.
 
@@ -82,7 +81,7 @@ Fibre filaire et wifi, café, imprimante, cuisine, salle de repos, accès PMR. L
   de l'accroche s'empilent et la rotation est réduite.
 - Menu : ligne qui passe à la ligne en mobile, pas de menu hamburger. Cibles tactiles ≥ 44 px.
 - Aucun JavaScript.
-- Favicon SVG : « C » Fraunces brique sur fond papier.
+- Favicon SVG : « C » à empattements couleur papier sur fond brique (un favicon ne charge pas de police web : Georgia).
 
 ## Architecture
 
@@ -118,7 +117,7 @@ déploiement.
 
 ## SEO
 
-- `<title>` : « Coworking Bourg-en-Bresse — bureaux partagés en centre-ville ».
+- `<title>` : « Coworking Bourg-en-Bresse | Bureaux partagés en centre-ville » (séparateur imposé par `jekyll-seo-tag`).
 - JSON-LD `LocalBusiness` : nom, adresse, téléphone, mail, URL, horaires (`Mo-Fr 08:00-18:00`), `priceRange`.
 - `google-site-verification` existant conservé.
 - Sitemap via `jekyll-sitemap`.
