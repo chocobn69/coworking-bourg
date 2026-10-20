@@ -24,19 +24,19 @@ réserver une visite par mail ou téléphone. Zéro service tiers, maintenance m
 
 ### Infos pratiques (`_data/infos.yml`)
 
-| Champ | Valeur | Statut |
-|---|---|---|
-| Adresse | 14 rue du Général Logerot, 01000 Bourg-en-Bresse | à vérifier (`about.md` disait 13) |
-| Téléphone | 06 10 30 80 68 | à vérifier (qui répond ?) |
-| Mail | qg.coworkain@gmail.com | à vérifier |
-| Facebook | https://www.facebook.com/LeQGBourgenBresse/ | à vérifier |
-| Surface | 130 m² | à vérifier |
-| Temps à pied depuis la gare | inconnu | à fournir |
-| Horaires / mode d'accès | inconnu | à fournir |
-| Engagement minimum sur les formules au mois | inconnu | à fournir |
+| Champ | Valeur |
+|---|---|
+| Adresse | 14 rue du Général Logerot, 01000 Bourg-en-Bresse |
+| Téléphone | 06 10 30 80 68 |
+| Mail | qg.coworkain@gmail.com |
+| Facebook | https://www.facebook.com/LeQGBourgenBresse/ |
+| Surface | 130 m² |
+| Temps à pied depuis la gare | 5 minutes |
+| Horaires | du lundi au vendredi, 8 h – 18 h |
+| Venir | à pied, en voiture, à vélo, en train |
+| Responsable de publication | Nicolas Baccelli |
 
-Tant qu'une valeur « à fournir » est vide, le gabarit n'affiche pas la phrase qui la contient (pas de `[X]` en
-production).
+L'engagement minimum sur les formules au mois n'est pas connu : il n'est pas mentionné sur le site.
 
 ### Tarifs (`_data/tarifs.yml`, tous TTC)
 
@@ -55,18 +55,20 @@ Fibre filaire et wifi, café, imprimante, cuisine, salle de repos, accès PMR. L
    Bourg-en-Bresse, à deux pas de la gare. » ; sous-titre « 130 m² partagés pour freelances, indépendants et
    télétravailleurs. À la journée, au mois, ou pour une réunion. » ; bouton mail + lien téléphone ; deux tirages
    photo inclinés (open space, tasse).
-3. **Pourquoi ici** — trois blocs : Au cœur de la ville / À votre rythme / Entre collègues.
+3. **Pourquoi ici** — trois blocs : Au cœur de la ville (« À 5 minutes à pied de la gare, entre les commerces et les
+   cafés du centre. ») / À votre rythme / Entre collègues.
 4. **Espaces** — open space, bureaux privatifs, salle de réunion, cuisine et salle de repos ; une vignette « tirage »
    et une phrase chacun.
 5. **Tarifs** — liste façon carte de café (libellé, pointillés, prix), mention TTC et services inclus.
-6. **Accès / contact** — bandeau sombre « Venez prendre un café avec nous. », adresse, horaires, lien
+6. **Accès / contact** — bandeau sombre « Venez prendre un café avec nous. », adresse, « Du lundi au vendredi, 8 h – 18 h »,
+   « À 5 minutes à pied de la gare — à pied, en voiture, à vélo ou en train », lien
    OpenStreetMap (pas d'iframe de carte : évite un bandeau cookies), boutons mail et téléphone.
 7. **Pied de page** — « Géré par Cowork'Ain, association loi 1901. », Facebook, mentions légales.
 
 ### Autres pages
 
 - `mentions-legales.md` — éditeur (Cowork'Ain, association loi 1901, adresse), responsable de publication
-  (à fournir), hébergeur (GitHub Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA), absence de
+  (Nicolas Baccelli), hébergeur (GitHub Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA), absence de
   cookies et de traceurs.
 - `404.html` — en français, même style, lien vers l'accueil.
 
@@ -117,7 +119,7 @@ déploiement.
 ## SEO
 
 - `<title>` : « Coworking Bourg-en-Bresse — bureaux partagés en centre-ville ».
-- JSON-LD `LocalBusiness` : nom, adresse, téléphone, mail, URL, horaires (si renseignés), `priceRange`.
+- JSON-LD `LocalBusiness` : nom, adresse, téléphone, mail, URL, horaires (`Mo-Fr 08:00-18:00`), `priceRange`.
 - `google-site-verification` existant conservé.
 - Sitemap via `jekyll-sitemap`.
 
