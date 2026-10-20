@@ -68,6 +68,10 @@ a:hover {
   color: var(--encre);
 }
 
+a[href^="tel:"] {
+  white-space: nowrap;
+}
+
 :focus-visible {
   outline: 3px solid var(--brique);
   outline-offset: 3px;
@@ -109,6 +113,10 @@ address {
 
 .evitement:focus {
   top: 8px;
+}
+
+.evitement:hover {
+  color: var(--papier);
 }
 
 .doux {
@@ -222,6 +230,9 @@ address {
 }
 
 .menu a:not(.bouton) {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
   color: var(--encre);
   text-decoration: none;
 }
@@ -320,6 +331,8 @@ address {
   position: relative;
   flex: 1 1 400px;
   min-width: 0;
+  max-width: 440px;
+  margin-inline: auto;
   height: 440px;
 }
 
@@ -557,7 +570,7 @@ address {
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 16px;
-  padding-block: 32px;
+  padding-block: 20px;
   color: var(--texte-pied);
   font-size: 15px;
 }
@@ -567,11 +580,20 @@ address {
   gap: 20px;
 }
 
+.pied nav a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+}
+
 /* Pages simples : mentions légales, 404 */
 
 .page {
-  max-width: 760px;
   padding-block: 64px 88px;
+}
+
+.page > * {
+  max-width: 760px;
 }
 
 .page h1 {

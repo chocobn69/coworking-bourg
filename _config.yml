@@ -8,6 +8,7 @@ url: "https://www.coworking-bourg.fr"
 baseurl: ""
 lang: fr
 locale: fr_FR
+theme: null
 
 webmaster_verifications:
   google: omjtwlAwENW3ic3Nw6-ZVjn3lwXdwK5TZl1S9A-g4Cs
@@ -28,3 +29,4 @@ exclude:
   - Gemfile.lock
   - vendor/
   - node_modules/
+  - CNAME
