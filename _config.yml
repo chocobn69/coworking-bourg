@@ -19,6 +19,9 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
 
+redirect_from:
+  json: false
+
 # Overrides Jekyll's default exclude list, so the defaults are repeated here
 exclude:
   - docs/

@@ -48,11 +48,14 @@ build_site() {
 }
 
 serve_site() {
-    docker run "${docker_options[@]}" \
+    local serve_options=(
         # A TTY lets Ctrl+C stop the server
-        --interactive \
-        --tty \
-        --publish "${PORT}:${PORT}" \
+        --interactive
+        --tty
+        --publish "${PORT}:${PORT}"
+    )
+
+    docker run "${docker_options[@]}" "${serve_options[@]}" \
         "${RUBY_IMAGE}" \
         sh -c "${BUNDLE_INSTALL} && bundle exec jekyll serve --host 0.0.0.0 --port ${PORT}"
 }

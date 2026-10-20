@@ -1,4 +1,4 @@
-# Prix TTC en euros
+# Prix TTC en euros, toujours un nombre (ex. 7 ou 7.5, jamais "7,50 €") : sinon le site ne se construit plus
 - groupe: À la carte
   lignes:
     - libelle: Demi-journée
