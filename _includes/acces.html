@@ -1,0 +1,15 @@
+{%- assign infos = site.data.infos -%}
+<section id="acces" class="sombre">
+  <div class="conteneur acces">
+    <div class="acces-texte">
+      <h2 class="titre-section">Venez prendre un café avec nous.</h2>
+      <address>{{ infos.adresse.rue }}, {{ infos.adresse.code_postal }} {{ infos.adresse.ville }}</address>
+      <p>{{ infos.horaires }}.<br>À {{ infos.gare_a_pied }} à pied de la gare. On vient aussi à vélo ou en voiture.</p>
+      <p><a href="{{ infos.carte }}">Voir sur la carte</a></p>
+    </div>
+    <div class="acces-contacts">
+      <a class="bouton bouton-clair" href="{{ infos.lien_visite }}">{{ infos.mail }}</a>
+      <a class="bouton bouton-contour" href="tel:{{ infos.telephone_international }}">{{ infos.telephone }}</a>
+    </div>
+  </div>
+</section>

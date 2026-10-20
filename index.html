@@ -15,7 +15,7 @@ redirect_from:
 <section class="conteneur accroche">
   <div class="accroche-texte">
     <p class="surtitre">Un lieu de travail tenu par ceux qui y travaillent</p>
-    <h1>Votre bureau en plein centre de Bourg-en-Bresse, à deux pas de la gare.</h1>
+    <h1>Un espace de coworking en plein centre de Bourg-en-Bresse, à deux pas de la gare.</h1>
     <p class="accroche-intro">{{ infos.surface }} partagés pour freelances, indépendants et télétravailleurs. À la journée, au mois, ou pour une réunion.</p>
     <div class="actions">
       <a class="bouton bouton-grand" href="{{ infos.lien_visite }}">Réserver une visite</a>
@@ -56,16 +56,16 @@ redirect_from:
     <h2 class="titre-section">Les espaces</h2>
     <ul class="liste-espaces">
       <li>
-        <h3>L'open space</h3>
+        <h3><a href="{{ '/open-space/' | relative_url }}">L'open space</a></h3>
         <p>Un poste parmi les autres coworkers, pour une demi-journée ou au mois.</p>
       </li>
       <li>
-        <h3>Les bureaux privatifs</h3>
+        <h3><a href="{{ '/bureaux-privatifs/' | relative_url }}">Les bureaux privatifs</a></h3>
         <p>Une pièce fermée pour vous ou votre équipe, louée au mois.</p>
       </li>
       <li>
-        <h3>La salle de réunion</h3>
-        <p>Pour vos rendez-vous clients, formations et ateliers, à la demi-journée ou à la journée.</p>
+        <h3><a href="{{ '/salle-de-reunion/' | relative_url }}">La salle de réunion</a></h3>
+        <p>Jusqu’à 6 personnes, pour vos rendez-vous clients, formations et ateliers, à la demi-journée ou à la journée.</p>
       </li>
       <li>
         <h3>Cuisine et salle de repos</h3>
@@ -100,32 +100,11 @@ redirect_from:
   </div>
   <div class="tarifs-liste">
     {%- for groupe in site.data.tarifs %}
-    <div class="groupe-tarif">
-      <h3>{{ groupe.groupe }}</h3>
-      <dl>
-        {%- for ligne in groupe.lignes %}
-        <div class="ligne-tarif">
-          <dt>{{ ligne.libelle }}</dt>
-          <dd>{{ ligne.prix }}&nbsp;€</dd>
-        </div>
-        {%- endfor %}
-      </dl>
-    </div>
+    {% include groupe-tarif.html groupe=groupe %}
     {%- endfor %}
   </div>
 </section>
 
-<section id="acces" class="sombre">
-  <div class="conteneur acces">
-    <div class="acces-texte">
-      <h2 class="titre-section">Venez prendre un café avec nous.</h2>
-      <address>{{ infos.adresse.rue }}, {{ infos.adresse.code_postal }} {{ infos.adresse.ville }}</address>
-      <p>{{ infos.horaires }}.<br>À {{ infos.gare_a_pied }} à pied de la gare. On vient aussi à vélo ou en voiture.</p>
-      <p><a href="{{ infos.carte }}">Voir sur la carte</a></p>
-    </div>
-    <div class="acces-contacts">
-      <a class="bouton bouton-clair" href="{{ infos.lien_visite }}">{{ infos.mail }}</a>
-      <a class="bouton bouton-contour" href="tel:{{ infos.telephone_international }}">{{ infos.telephone }}</a>
-    </div>
-  </div>
-</section>
+{% include faq.html %}
+
+{% include acces.html %}

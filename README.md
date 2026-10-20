@@ -12,6 +12,8 @@ Hébergé par GitHub Pages : chaque push sur `master` met le site en ligne.
 | Services inclus | `_data/services.yml` |
 | Adresse, téléphone, mail, horaires | `_data/infos.yml` |
 | Textes de la page d'accueil | `index.html` |
+| Questions fréquentes | `_includes/faq.html` |
+| Pages open space, bureaux privatifs, salle de réunion | `open-space.html`, `bureaux-privatifs.html`, `salle-de-reunion.html` (en-tête du fichier) |
 | Couleurs, typo, mise en page | `assets/css/main.css` |
 
 Ces fichiers peuvent être modifiés directement depuis l'interface web de GitHub.

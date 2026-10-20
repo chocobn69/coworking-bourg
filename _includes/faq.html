@@ -1,0 +1,39 @@
+{%- assign infos = site.data.infos -%}
+<section id="faq" class="conteneur section faq">
+  <h2 class="titre-section">Questions fréquentes</h2>
+  <div class="faq-liste">
+    <details>
+      <summary>Faut-il s’engager pour une formule au mois&nbsp;?</summary>
+      <p>Non. Le poste en open space et le bureau privatif se louent au mois, sans engagement&nbsp;: vous restez le temps qu’il vous faut.</p>
+    </details>
+    <details>
+      <summary>Peut-on visiter ou essayer avant de se décider&nbsp;?</summary>
+      <p>Oui. Passez visiter, ou venez travailler une demi-journée pour vous faire une idée. Écrivez-nous à <a href="{{ infos.lien_visite }}">{{ infos.mail }}</a> ou appelez le <a href="tel:{{ infos.telephone_international }}">{{ infos.telephone }}</a> pour convenir d’un moment.</p>
+    </details>
+    <details>
+      <summary>Quels sont les horaires&nbsp;?</summary>
+      <p>{{ infos.horaires }}. Les abonnés au mois peuvent aussi venir avant 8&nbsp;h et après 18&nbsp;h.</p>
+    </details>
+    <details>
+      <summary>Comment venir&nbsp;? Peut-on se garer&nbsp;?</summary>
+      <p>Le coworking est au {{ infos.adresse.rue }}, à {{ infos.gare_a_pied }} à pied de la gare de Bourg-en-Bresse. On peut se garer à proximité, et venir à vélo.</p>
+    </details>
+    <details>
+      <summary>Qu’est-ce qui est compris dans le prix&nbsp;?</summary>
+      <p>Les prix sont TTC et toutes les formules comprennent&nbsp;:</p>
+      <ul class="services">
+        {%- for service in site.data.services %}
+        <li>{{ service }}</li>
+        {%- endfor %}
+      </ul>
+    </details>
+    <details>
+      <summary>Combien de personnes peut accueillir la salle de réunion&nbsp;?</summary>
+      <p>Jusqu’à 6 personnes, à la demi-journée ou à la journée. <a href="{{ '/salle-de-reunion/' | relative_url }}">Voir la salle de réunion</a>.</p>
+    </details>
+    <details>
+      <summary>Les locaux sont-ils accessibles aux personnes à mobilité réduite&nbsp;?</summary>
+      <p>Oui, les locaux sont accessibles aux personnes à mobilité réduite.</p>
+    </details>
+  </div>
+</section>

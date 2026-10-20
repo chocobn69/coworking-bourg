@@ -1,17 +1,21 @@
 # Prix TTC en euros, toujours un nombre (ex. 7 ou 7.5, jamais "7,50 €") : sinon le site ne se construit plus
-- groupe: À la carte
+# id : identifiant fixe utilisé par les pages espaces, ne pas le modifier
+- id: carte
+  groupe: À la carte
   lignes:
     - libelle: Demi-journée
       prix: 7
     - libelle: Journée
       prix: 14
-- groupe: Au mois
+- id: mois
+  groupe: Au mois
   lignes:
     - libelle: Poste en open space
       prix: 117
     - libelle: Bureau privatif
       prix: 552
-- groupe: Salle de réunion
+- id: salle
+  groupe: Salle de réunion
   lignes:
     - libelle: Demi-journée
       prix: 42

@@ -399,6 +399,16 @@ address {
   font-size: 22px;
 }
 
+.liste-espaces h3 a {
+  color: var(--encre);
+  text-decoration-color: var(--brique);
+  text-underline-offset: 4px;
+}
+
+.liste-espaces h3 a:hover {
+  color: var(--brique);
+}
+
 .liste-espaces p {
   color: var(--texte-doux);
 }
@@ -563,6 +573,124 @@ address {
   font-size: 18px;
 }
 
+/* Pages espace : points pratiques, liens vers les autres espaces */
+
+.liste-points {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.liste-points li {
+  position: relative;
+  padding-left: 22px;
+}
+
+.liste-points li::before {
+  content: "";
+  position: absolute;
+  top: 0.65em;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--brique);
+}
+
+.autres-espaces {
+  padding-bottom: 72px;
+}
+
+.autres-espaces ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 12px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.autres-espaces a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 8px 20px;
+  border: 1px solid var(--bordure);
+  border-radius: 999px;
+  color: var(--encre);
+  text-decoration: none;
+}
+
+.autres-espaces a:hover {
+  border-color: var(--brique);
+  color: var(--brique);
+}
+
+/* FAQ */
+
+.faq {
+  border-top: 1px solid var(--bordure);
+}
+
+.faq-liste {
+  max-width: 760px;
+  margin-top: 32px;
+}
+
+.faq details {
+  border-bottom: 1px solid var(--bordure);
+}
+
+.faq details:first-child {
+  border-top: 1px solid var(--bordure);
+}
+
+.faq summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  min-height: 44px;
+  padding-block: 16px;
+  font-family: var(--serif);
+  font-size: 20px;
+  font-weight: 600;
+  list-style: none;
+  cursor: pointer;
+}
+
+.faq summary::-webkit-details-marker {
+  display: none;
+}
+
+/* The second declaration gives the sign an empty alt text; older browsers keep the first */
+.faq summary::after {
+  content: "+";
+  content: "+" / "";
+  color: var(--brique);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.faq details[open] summary::after {
+  content: "–";
+  content: "–" / "";
+}
+
+.faq details > p,
+.faq details > ul {
+  margin-bottom: 18px;
+  color: var(--texte-doux);
+}
+
+.faq details > p + ul {
+  margin-top: 10px;
+}
+
 /* Pied de page */
 
 .pied {
@@ -578,7 +706,8 @@ address {
 
 .pied nav {
   display: flex;
-  gap: 20px;
+  flex-wrap: wrap;
+  gap: 0 20px;
 }
 
 .pied nav a {

@@ -1,0 +1,11 @@
+<div class="groupe-tarif">
+  <h3>{{ include.groupe.groupe }}</h3>
+  <dl>
+    {%- for ligne in include.groupe.lignes %}
+    <div class="ligne-tarif">
+      <dt>{{ ligne.libelle }}</dt>
+      <dd>{{ ligne.prix }}&nbsp;€</dd>
+    </div>
+    {%- endfor %}
+  </dl>
+</div>
