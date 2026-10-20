@@ -1,0 +1,131 @@
+---
+layout: default
+image: /assets/photo_openspace_1.jpg
+redirect_from:
+  - /tarifs.html
+  - /presta.html
+  - /apropos/
+  - /acces.html
+  - /contacts.html
+  - /photos.html
+  - /2019/09/06/inauguration.html
+  - /2021/09/06/menage.html
+---
+{%- assign infos = site.data.infos -%}
+<section class="conteneur accroche">
+  <div class="accroche-texte">
+    <p class="surtitre">Un lieu de travail tenu par ceux qui y travaillent</p>
+    <h1>Votre bureau en plein centre de Bourg-en-Bresse, à deux pas de la gare.</h1>
+    <p class="accroche-intro">{{ infos.surface }} partagés pour freelances, indépendants et télétravailleurs. À la journée, au mois, ou pour une réunion.</p>
+    <div class="actions">
+      <a class="bouton bouton-grand" href="{{ infos.lien_visite }}">Réserver une visite</a>
+      <a class="lien-tel" href="tel:{{ infos.telephone_international }}">ou appelez le {{ infos.telephone }}</a>
+    </div>
+  </div>
+  <div class="accroche-photos">
+    <figure class="tirage tirage-gauche accroche-photo-1">
+      <img src="{{ '/assets/photo_openspace_1.jpg' | relative_url }}" alt="L'open space, son mur rouge et ses grandes tables" width="500" height="333">
+      <figcaption>l'open space</figcaption>
+    </figure>
+    <figure class="tirage tirage-droite accroche-photo-2">
+      <img src="{{ '/assets/photo_tasse.jpg' | relative_url }}" alt="Une tasse de café posée sur un bureau" width="500" height="333">
+      <figcaption>le café est inclus</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="bande" aria-label="Pourquoi venir ici">
+  <div class="conteneur arguments">
+    <div>
+      <h2>Au cœur de la ville</h2>
+      <p>À {{ infos.gare_a_pied }} à pied de la gare, entre les commerces et les cafés du centre.</p>
+    </div>
+    <div>
+      <h2>À votre rythme</h2>
+      <p>Une demi-journée pour essayer, un poste au mois, ou un bureau à vous.</p>
+    </div>
+    <div>
+      <h2>Entre collègues</h2>
+      <p>Une association gérée par ses coworkers&nbsp;: des prix justes et une vraie vie de bureau.</p>
+    </div>
+  </div>
+</section>
+
+<section id="espaces" class="conteneur section espaces">
+  <div class="espaces-texte">
+    <h2 class="titre-section">Les espaces</h2>
+    <ul class="liste-espaces">
+      <li>
+        <h3>L'open space</h3>
+        <p>Un poste parmi les autres coworkers, pour une demi-journée ou au mois.</p>
+      </li>
+      <li>
+        <h3>Les bureaux privatifs</h3>
+        <p>Une pièce fermée pour vous ou votre équipe, louée au mois.</p>
+      </li>
+      <li>
+        <h3>La salle de réunion</h3>
+        <p>Pour vos rendez-vous clients, formations et ateliers, à la demi-journée ou à la journée.</p>
+      </li>
+      <li>
+        <h3>Cuisine et salle de repos</h3>
+        <p>Pour déjeuner, faire une pause café et souffler entre deux rendez-vous.</p>
+      </li>
+    </ul>
+  </div>
+  <div class="espaces-photos">
+    <figure class="tirage tirage-droite">
+      <img src="{{ '/assets/photo_bureau_jaune.jpg' | relative_url }}" alt="Un coworker à son poste, près de la fenêtre" width="500" height="333" loading="lazy">
+      <figcaption>un poste près de la fenêtre</figcaption>
+    </figure>
+    <figure class="tirage tirage-gauche">
+      <img src="{{ '/assets/photo_bureau_orange.jpg' | relative_url }}" alt="Deux coworkers dans un bureau au mur orange" width="500" height="281" loading="lazy">
+      <figcaption>un bureau à deux</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section id="tarifs" class="conteneur section tarifs">
+  <div class="tarifs-intro">
+    <h2 class="titre-section">Tarifs</h2>
+    <p class="doux">Tous les prix sont TTC. Inclus dans chaque formule&nbsp;:</p>
+    <ul class="services">
+      {%- for service in site.data.services %}
+      <li>{{ service }}</li>
+      {%- endfor %}
+    </ul>
+    <figure class="tirage tirage-gauche">
+      <img src="{{ '/assets/photo_bureau_mauve.jpg' | relative_url }}" alt="Un bureau privatif au mur framboise" width="500" height="333" loading="lazy">
+    </figure>
+  </div>
+  <div class="tarifs-liste">
+    {%- for groupe in site.data.tarifs %}
+    <div class="groupe-tarif">
+      <h3>{{ groupe.groupe }}</h3>
+      <dl>
+        {%- for ligne in groupe.lignes %}
+        <div class="ligne-tarif">
+          <dt>{{ ligne.libelle }}</dt>
+          <dd>{{ ligne.prix }}&nbsp;€</dd>
+        </div>
+        {%- endfor %}
+      </dl>
+    </div>
+    {%- endfor %}
+  </div>
+</section>
+
+<section id="acces" class="sombre">
+  <div class="conteneur acces">
+    <div class="acces-texte">
+      <h2 class="titre-section">Venez prendre un café avec nous.</h2>
+      <address>{{ infos.adresse.rue }}, {{ infos.adresse.code_postal }} {{ infos.adresse.ville }}</address>
+      <p>{{ infos.horaires }}.<br>À {{ infos.gare_a_pied }} à pied de la gare. On vient aussi à vélo ou en voiture.</p>
+      <p><a href="{{ infos.carte }}">Voir sur la carte</a></p>
+    </div>
+    <div class="acces-contacts">
+      <a class="bouton bouton-clair" href="{{ infos.lien_visite }}">{{ infos.mail }}</a>
+      <a class="bouton bouton-contour" href="tel:{{ infos.telephone_international }}">{{ infos.telephone }}</a>
+    </div>
+  </div>
+</section>

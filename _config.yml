@@ -1,51 +1,35 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Coworking Bourg en Bresse
-email: admin@coworking-bourg.fr
-description: >- # this means to ignore newlines until "baseurl:"
-  Coworking Bourg en Bresse (Cowork'Ain) situé en plein centre ville de Bourg.
-  Venez visiter les nouveaux locaux situés rue général Logerot.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.coworking-bourg.fr" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: coworking-bourg
-github_username:  chocobn69
-languages: ["fr"]
+title: Coworking Bourg-en-Bresse
+tagline: Bureaux partagés en centre-ville
+description: >-
+  Espace de coworking associatif en plein centre de Bourg-en-Bresse, à 5 minutes à pied de la gare.
+  Open space, bureaux privatifs et salle de réunion, à la journée ou au mois.
+email: qg.coworkain@gmail.com
+url: "https://www.coworking-bourg.fr"
+baseurl: ""
 lang: fr
+locale: fr_FR
+theme: null
 
-# Build settings
+webmaster_verifications:
+  google: omjtwlAwENW3ic3Nw6-ZVjn3lwXdwK5TZl1S9A-g4Cs
+
 markdown: kramdown
-theme: jekyll-theme-cayman
 plugins:
-  - jekyll-feed
-  - jekyll-redirect-from
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-avatar
-  - jemoji
-  - jekyll-mentions
-  - jekyll-include-cache
+  - jekyll-redirect-from
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+redirect_from:
+  json: false
+
+# Overrides Jekyll's default exclude list, so the defaults are repeated here
+exclude:
+  - docs/
+  - README.md
+  - LICENSE
+  - run_local.sh
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - node_modules/
+  - CNAME
